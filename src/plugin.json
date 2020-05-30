@@ -1,0 +1,27 @@
+{
+    "type": "panel",
+    "name": "Demo Echarts",
+    "id": "echarts-demo-panel",
+    "info": {
+        "description": "a demo panel by echarts for grafana v6",
+        "author": {
+            "name": "Langnang",
+            "url": "http://grafana.com"
+        },
+        "keywords": [
+            "panel"
+        ],
+        "logos": {
+            "small": "src/img/logo.png",
+            "large": "src/img/logo.png"
+        },
+        "links": [],
+        "screenshots": [],
+        "version": "2.0.0",
+        "updated": "2020-05-29"
+    },
+    "dependencies": {
+        "grafanaVersion": "6.5.2",
+        "plugins": []
+    }
+}
