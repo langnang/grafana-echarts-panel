@@ -40,17 +40,13 @@ export class Controller extends MetricsPanelCtrl {
         this.render();
         this.refreshed = false;
     }
-
     onDataError(err) {
         this.series = [];
         this.render();
     }
-
     onInitEditMode() {
         this.addEditorTab('Option', 'public/plugins/echarts-panel/partials/options.html', 2);
     }
-
-
     refreshData() {
         let _this = this, xmlhttp;
         if (window.XMLHttpRequest) {
